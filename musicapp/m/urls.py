@@ -7,6 +7,7 @@ urlpatterns=[
     path('', views.index, name='index'),
     path('mlist/', views.mlist, name='mlist'),
     path('mdeta/', views.mdeta, name='mdeta'),
+    path('play/', views.play, name='play'),
   
     ]
 
